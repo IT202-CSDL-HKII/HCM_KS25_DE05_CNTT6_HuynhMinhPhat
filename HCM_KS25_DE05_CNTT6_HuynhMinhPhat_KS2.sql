@@ -82,6 +82,8 @@ WHERE player_salary >= 50000000 AND player_salary <= 150000000;
 SELECT * FROM MATCHS
 WHERE match_id = 'MS_007';
 
+SELECT p.player_nickname, p.player_position FROM PLAYER p, TEAM t WHERE p.team_id = t.team_id AND t.team_area = 'Vietnam';
+
 
 
 
