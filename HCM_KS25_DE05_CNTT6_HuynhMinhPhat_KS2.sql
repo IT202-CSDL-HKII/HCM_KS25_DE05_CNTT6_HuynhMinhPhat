@@ -79,17 +79,6 @@ WHERE team_owner IS NULL;
 SELECT * FROM PLAYER
 WHERE player_salary >= 50000000 AND player_salary <= 150000000;
 
-SELECT * FROM MATCHS
-WHERE match_id = 'MS_007';
-
-SELECT player_nickname, player_position
-FROM PLAYER
-WHERE team_id IN (
-    SELECT team_id
-    FROM TEAM
-    WHERE team_area = 'Vietnam'
-);
-
 
 
 
