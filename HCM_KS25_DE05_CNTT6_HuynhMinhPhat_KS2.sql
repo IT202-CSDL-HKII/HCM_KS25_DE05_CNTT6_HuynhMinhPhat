@@ -79,6 +79,8 @@ WHERE team_owner IS NULL;
 SELECT * FROM PLAYER
 WHERE player_salary >= 50000000 AND player_salary <= 150000000;
 
+SELECT * FROM MATCHS
+WHERE match_id = 'MS_007';
 
 
 
